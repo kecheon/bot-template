@@ -6,7 +6,7 @@
 		"pair_whitelist": [".*/USDT"],
 		"pair_blacklist": []
 	},
-	"fiat_display_currency": "USDT",
+	"fiat_display_currency": "USD",
 	"dry_run_wallet": 1000,
 	"max_open_trades": 3,
 	"dry_run": true,
