@@ -20,14 +20,13 @@ services:
         # Default command used when running `docker compose up`
         command: >
             trade
-            --db-url sqlite:////freqtrade/user_data/data.sqlite
             --config /freqtrade/user_data/config.json
             --config /freqtrade/user_data/config_custom.json
         deploy:
           replicas: 1
           placement:
               constraints:
-                  - node.hostname == bots001
+                  - node.hostname == ${TARGET}
           restart_policy:
             condition: on-failure
             delay: 5s
