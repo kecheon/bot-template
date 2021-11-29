@@ -27,17 +27,13 @@
         "order_book_min": 1,
         "order_book_max": 1,
         "use_sell_signal": true,
-        "sell_profit_only": true,
+        "sell_profit_only": false,
         "sell_profit_offset": 0.005,
         "ignore_roi_if_buy_signal": true
     },
     "timeframe": "1m",
     "stoploss": -0.15,
     "minimal_roi": {
-        "80": 0.01,
-        "60": 0.02,
-        "40": 0.03,
-        "20": 0.05,
         "0":  0.07
     },
     "order_types":  {
@@ -141,8 +137,8 @@
         "listen_port": 8080,
         "verbosity": "error",
         "enable_openapi": false,
-        "jwt_secret_key": "비득지 안녕?",
-        "CORS_origins": ["http://localhost:8080", "https://ui.bitsbee.io", "https://ui.bitsbee.net"],
+        "jwt_secret_key": "",
+        "CORS_origins": ["http://localhost:8080", "https://ui.bitsbee.io", "https://ui.bots.bitsbee.io"],
         "username": "freqtrade",
         "password": "test"
     },
