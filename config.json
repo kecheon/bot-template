@@ -91,6 +91,13 @@
 		"max_volatility": 0.30,
 		"refresh_period": 86400
 	},
+    {
+		"method": "RangeStabilityFilter",
+		"lookback_days": 5,
+		"min_rate_of_change": 0.01,
+		"max_rate_of_change": 0.5,
+		"refresh_period": 86400
+    },
 	// { "method": "PriceFilter", "min_price": 300 },
         { "method": "ShuffleFilter" }
     ],
