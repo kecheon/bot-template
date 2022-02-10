@@ -51,7 +51,6 @@
 		"max_rate_of_change": 0.5,
 		"refresh_period": 86400
         },
-	// { "method": "PriceFilter", "min_price": 300 },
         { "method": "ShuffleFilter" }
     ],
     "initial_state": "running",
