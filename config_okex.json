@@ -5,7 +5,23 @@
 		"secret": "",
 		"password": "",
 		"pair_whitelist": [".*/USDT"],
-		"pair_blacklist": []
+		"pair_blacklist": [],
+		"_ft_has_params": {
+			"ohlcv_candle_limit": 300
+		},
+		"ccxt_config": {
+			"enableRateLimit": false,
+			"timeout": 60000,
+			"urls": {
+				"api": {
+					"rest": "http://okx-proxy:8080/okex"
+				 }
+			}
+		 },
+		"ccxt_async_config": {
+			"enableRateLimit": false,
+			"timeout": 60000
+		}
 	},
 	"fiat_display_currency": "USD",
 	"dry_run_wallet": 1000,
