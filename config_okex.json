@@ -30,7 +30,7 @@
 	"tradable_balance_ratio": 0.99,
 	"stake_currency": "USDT",
 	"stake_amount": "unlimited",
-	"timeframe": "5m",
+	"timeframe": "1m",
 	"stoploss": -0.15,
 	"forcebuy_enable": true,
 	"minimal_roi": {"0": 0.2},
